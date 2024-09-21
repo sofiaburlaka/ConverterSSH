@@ -10,9 +10,10 @@ public class Main {
 
         double km = 7;
         double ml = 15;
-        double mile = convKmtoMl(km);
-        double kilometers = convMltoKm(mile);
-        System.out.println("Result is " + kilometers + " kilometers is " + mile  + " miles");
+        double kilometers = convMltoKm(ml);
+        double mile = convKmtoMl(kilometers);
+
+        System.out.println("Result is " + mile + " miles is " + kilometers + " kilometers");
     }
 
     private static double convKmtoMl(double km) {
