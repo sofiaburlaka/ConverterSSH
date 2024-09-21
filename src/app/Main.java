@@ -12,7 +12,7 @@ public class Main {
         double ml = 15;
         double mile = convKmtoMl(km);
         double kilometers = convMltoKm(mile);
-        System.out.println("Result is " + mile + " miles is " + kilometers + " kilometers");
+        System.out.println("Result is " + kilometers + " kilometers is " + mile  + " miles");
     }
 
     private static double convKmtoMl(double km) {
